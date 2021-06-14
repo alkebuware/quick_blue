@@ -94,27 +94,33 @@ packages:
       name: plugin_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
+    version: "2.0.0"
   quick_blue_macos:
     dependency: "direct main"
     description:
-      path: "../quick_blue_macos"
-      relative: true
-    source: path
+      path: quick_blue_macos
+      ref: HEAD
+      resolved-ref: "43b52610cb67e0b12a3fd965338f7c19943dd397"
+      url: "https://github.com/alkebuware/quick_blue.git"
+    source: git
     version: "0.2.0"
   quick_blue_platform_interface:
     dependency: "direct main"
     description:
-      path: "../quick_blue_platform_interface"
-      relative: true
-    source: path
+      path: quick_blue_platform_interface
+      ref: HEAD
+      resolved-ref: "43b52610cb67e0b12a3fd965338f7c19943dd397"
+      url: "https://github.com/alkebuware/quick_blue.git"
+    source: git
     version: "0.2.0"
   quick_blue_windows:
     dependency: "direct main"
     description:
-      path: "../quick_blue_windows"
-      relative: true
-    source: path
+      path: quick_blue_windows
+      ref: HEAD
+      resolved-ref: "43b52610cb67e0b12a3fd965338f7c19943dd397"
+      url: "https://github.com/alkebuware/quick_blue.git"
+    source: git
     version: "0.2.0"
   sky_engine:
     dependency: transitive

@@ -12,11 +12,17 @@ dependencies:
   flutter:
     sdk: flutter
   quick_blue_platform_interface:
-    path: ../quick_blue_platform_interface
+    git:
+      url: https://github.com/alkebuware/quick_blue.git
+      path: quick_blue_platform_interface
   quick_blue_macos:
-    path: ../quick_blue_macos
+    git:
+      url: https://github.com/alkebuware/quick_blue.git
+      path: quick_blue_macos
   quick_blue_windows:
-    path: ../quick_blue_windows
+    git:
+      url: https://github.com/alkebuware/quick_blue.git
+      path: quick_blue_windows
   convert: ^3.0.0
 
 dev_dependencies:
